@@ -1,4 +1,3 @@
-import { tree_builder } from "./tree_builder.ts";
 
 export type message = {
   status: number,
@@ -22,27 +21,27 @@ export default class  {
   }
 
   log() {
-    tree_builder.log()
+    
   }
 
   ok() {
-    tree_builder.ok()
+    
   }
   
   info() {
-    tree_builder.info()
+    
   }
 
   warn() {
-    tree_builder.warn()
+    
   }
 
   error() {
-    tree_builder.error()
+    
   }
 
   fatal() {
-    tree_builder.fatal()
+    
   }
   
 }
